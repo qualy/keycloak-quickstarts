@@ -2,7 +2,7 @@
 {
   "functions": {
     "api/app.js": {
-      "includeFiles": "**/*.js*"
+      "includeFiles": "api/keycloak.json"
     }
   },
   "rewrites": [
