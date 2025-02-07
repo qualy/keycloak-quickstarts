@@ -13,7 +13,9 @@
       "dest": "/app.js"
     }
   ],
-  "build": {
-    "includeFiles": ["keycloak.json"]
+  "functions": {
+    "**/*.js": {
+      "includeFiles": "keycloak.json"
+    }
   }
 }
