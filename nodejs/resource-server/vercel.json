@@ -4,8 +4,7 @@
   "builds": [
     {
       "src": "app.js",
-      "use": "@vercel/node",
-      "includeFiles": ["keycloak.json"]
+      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -13,5 +12,8 @@
       "src": "/.*",
       "dest": "/app.js"
     }
-  ]
+  ],
+  "build": {
+    "includeFiles": ["keycloak.json"]
+  }
 }
