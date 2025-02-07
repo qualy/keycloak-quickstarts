@@ -1,6 +1,10 @@
 
 {
-  "version": 2,
+  "functions": {
+    "**/*.js": {
+      "includeFiles": "keycloak.json"
+    }
+  },
   "builds": [
     {
       "src": "app.js",
@@ -12,10 +16,5 @@
       "src": "/.*",
       "dest": "/app.js"
     }
-  ],
-  "functions": {
-    "**/*.js": {
-      "includeFiles": "keycloak.json"
-    }
-  }
+  ]
 }
