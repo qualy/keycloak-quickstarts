@@ -1,19 +1,12 @@
 
 {
-  "builds": [
-    {
-      "src": "app.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "keycloak.json",
-      "use": "@vercel/static"
+  "functions": {
+    "app.js": {
+      "runtime": "nodejs18.x",
+      "includeFiles": "keycloak.json"
     }
-  ],
-  "routes": [
-    {
-      "src": "/.*",
-      "dest": "/app.js"
-    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/app.js" }
   ]
 }
