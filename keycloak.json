@@ -1,0 +1,7 @@
+{
+  "realm": "quickstart",
+  "bearer-only": true,
+  "auth-server-url": "https://keycloak-test-hafwf8ath6d2gdan.japaneast-01.azurewebsites.net",
+  "ssl-required": "external",
+  "resource": "resource-server"
+}

@@ -3,7 +3,7 @@ import assert from 'node:assert';
 import test from 'node:test';
 import config from '../config/config.js';
 
-const baseUrl = 'https://keycloak-quickstarts-zeta.vercel.app';
+const baseUrl = 'https://keycloak-quickstarts-gamma.vercel.app';
 
 test('accesses the \'public\' route without credentials.', async () => {
   const response = await fetch(`${baseUrl}/public`);
