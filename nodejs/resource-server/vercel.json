@@ -1,14 +1,13 @@
 
 {
-  "functions": {
-    "**/*.js": {
-      "includeFiles": "keycloak.json"
-    }
-  },
   "builds": [
     {
       "src": "app.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "keycloak.json",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
