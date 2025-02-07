@@ -7,7 +7,7 @@
       "enabled": true,
       "publicClient": true,
       "directAccessGrantsEnabled": true,
-      "redirectUris": [ "http://localhost:8080/*" ]
+      "redirectUris": [ "https://keycloak-quickstarts-zeta.vercel.app/*" ]
     }
   ],
   "users" : [
