@@ -1,4 +1,4 @@
-const baseUrl = 'http://127.0.0.1:8180';
+const baseUrl = 'https://keycloak-test-hafwf8ath6d2gdan.japaneast-01.azurewebsites.net';
 
 export default {
   baseUrl: baseUrl,
